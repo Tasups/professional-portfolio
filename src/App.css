@@ -10,6 +10,7 @@
   --primary-bisque: #ffe4c4;
   --primary-darkblue: #394d4c;
   --primary-grey: #363430;
+  --primary-red: #C70039;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   height: 100%;
 }
 
-/*----------NAVBAR----------*/
+/***************NAVBAR***************/
 
 nav {
   display: flex;
@@ -60,10 +61,12 @@ nav {
   color: var(--primary-orange);
 }
 
-/*----------HEADER----------*/
+/*************HEADER*************/
 
 .header-wrapper {
   display: flex;
+  align-items: center;
+  position: relative;
   padding-top: 10vh;
   height: 90vh;
   width: 100%;
@@ -71,18 +74,46 @@ nav {
   justify-content: center;
 }
 
+.header-main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--primary-white);
+  z-index: 2;
+}
+
+.header-title {
+  font-size: 4rem;
+  margin: 1rem;
+  font-family: 'Anybody',
+  cursive;
+  color: var(--primary-orange);
+}
+
+.header-typed {
+  text-align: center;
+  margin: 3rem;
+  font-size: 3rem;
+}
+
 .header-background-image{
+  background-color: ;
   height: 90vh;
+  position: absolute;
 }
 
 /*----------PARTICLES----------*/
 
 #tsparticles {
-  position: static !important;
-  z-index: 1 !important;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 90vh;
 }
 
-.test {
+/*----------ABOUT----------*/
+
+.about {
   background-color: lightblue;
   z-index: 2 !important;
 }

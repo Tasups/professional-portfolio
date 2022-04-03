@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Particles from 'react-tsparticles';
+import Typed from 'react-typed';
 
 import background from '../images/portfoliobg.png';
 
@@ -20,6 +21,10 @@ const Header = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
+          fullScreen: {
+            enable: false,
+            zIndex: 0,
+          },
           fpsLimit: 120,
           interactivity: {
             events: {
@@ -68,8 +73,8 @@ const Header = () => {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 1,
-              straight: false,
+              speed: 1.5,
+              straight: true,
             },
             number: {
               density: {
@@ -92,11 +97,28 @@ const Header = () => {
           detectRetina: true,
         }}
       />
+      {/*IMAGE AND DIVS ARE BELOW*********************************************************************************/}
       <img
         className="header-background-image"
         src={background}
         alt="coffee and computer"
       />
+      <div className="header-main-info">
+        <h1 className='header-title'>Web Development and Design</h1>
+        <Typed
+          className="header-typed"
+          strings=
+          {[
+            "Web Development",
+            "Web Design",
+            "Web Applications",
+            "Software Development",
+          ]}
+          typeSpeed={40}
+          backSpeed={55}
+          loop
+        />
+      </div>
     </div>
   );
 }
