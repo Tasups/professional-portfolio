@@ -15,7 +15,7 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 /***************NAVBAR***************/
@@ -97,8 +97,8 @@ nav {
 }
 
 .header-background-image{
-  background-color: ;
   height: 90vh;
+  width: 100%;
   position: absolute;
 }
 
@@ -114,6 +114,29 @@ nav {
 /*----------ABOUT----------*/
 
 .about {
-  background-color: lightblue;
-  z-index: 2 !important;
+  width: 100%;
+  height: 90vh;
+  z-index: 2;
+}
+
+.about-main {
+  display: flex;
+  margin: 10rem;
+  justify-content: space-around;
+}
+
+.about-main-image {
+  border: 0.16rem solid var(--primary-orange);
+  border-radius: 50%;
+}
+
+.about-image {
+  width: 10rem;
+  padding: 0rem;
+  border: 0.16rem solid white;
+  border-radius: 50%;
+}
+
+.about-main-info {
+  border: 1px solid black;
 }
