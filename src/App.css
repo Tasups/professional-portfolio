@@ -26,15 +26,14 @@ nav {
   background-color: var(--primary-dark);
   height: 10vh;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav-logo {
   color: var(--primary-orange);
   font-size: 2rem;
   font-weight: 100;
-  font-family: 'Anybody',
-  cursive;
+  font-family: 'Anybody', cursive;
   margin: auto 1rem;
 }
 
@@ -85,8 +84,7 @@ nav {
 .header-title {
   font-size: 4rem;
   margin: 1rem;
-  font-family: 'Anybody',
-  cursive;
+  font-family: 'Anybody', cursive;
   color: var(--primary-orange);
 }
 
@@ -115,28 +113,42 @@ nav {
 
 .about {
   width: 100%;
-  height: 90vh;
+  height: 45vh;
   z-index: 2;
 }
 
 .about-main {
   display: flex;
-  margin: 10rem;
+  margin: 5rem 10rem;
   justify-content: space-around;
 }
 
 .about-main-image {
-  border: 0.16rem solid var(--primary-orange);
+  margin-top: 3rem;
   border-radius: 50%;
 }
 
 .about-image {
   width: 10rem;
   padding: 0rem;
-  border: 0.16rem solid white;
+  border: 0.16rem solid var(--primary-orange);
   border-radius: 50%;
 }
 
 .about-main-info {
-  border: 1px solid black;
+  width: 30rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-main-info h1 {
+  color: var(--primary-orange);
+  margin-bottom: 1rem;
+}
+
+.about-main-info ul {
+  list-style-type: none;
+}
+
+.about-main-info li {
+  margin: 0.33rem;
 }
