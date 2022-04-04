@@ -13,6 +13,10 @@
   --primary-red: #C70039;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   height: 100vh;
