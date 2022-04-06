@@ -121,6 +121,7 @@ nav {
   margin: 1rem;
   font-family: 'Anybody', cursive;
   color: var(--primary-orange);
+  text-align: center;
 }
 
 .header-typed {
@@ -129,10 +130,27 @@ nav {
   font-size: 3rem;
 }
 
-.header-background-image{
+.header-background-image {
   height: 90vh;
   width: 100%;
   position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-typed {
+    margin: 3rem 0rem;
+    font-size: 1.8rem;
+  }
+  .header-background-image {
+    display: none;
+  }
+  .header-main-info button {
+    width: 8rem;
+    font-size: 1rem;
+  }
 }
 
 /*----------PARTICLES----------*/
@@ -144,12 +162,19 @@ nav {
   height: 90vh;
 }
 
+@media only screen and (max-width: 600px) {
+  #tsparticles {
+    display:none;
+  }
+}
+
 /*----------ABOUT----------*/
 
 .about {
   width: 100%;
   min-height: 45vh;
   z-index: 2;
+  padding-top: 10vh;
 }
 
 .about-main {
@@ -195,6 +220,7 @@ nav {
   width: 100%;
   min-height: 45vh;
   z-index: 2;
+  padding-top: 10vh;
   background-color: var(--primary-orange);
 }
 
