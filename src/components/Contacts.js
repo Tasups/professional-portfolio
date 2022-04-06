@@ -7,7 +7,7 @@ import { faLinkedin, faGithub, faInstagram, faTwitter } from '@fortawesome/free-
 
 const Contacts = () => {
   return (
-    <div className="contacts-wrapper" id="contacts">
+    <div className="contacts-wrapper container" id="contacts">
       <div className="contacts-main">
 
         <div className="contacts-greeting">
@@ -22,7 +22,7 @@ const Contacts = () => {
         >
           <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
         </a>
-        <a href="https://github.com/Tasups" target="_blank" rel="noreferrer">
+        <a href="mailto:tasups@gmail.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />
         </a>
         <a href="https://github.com/Tasups" target="_blank" rel="noreferrer">

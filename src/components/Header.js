@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header-wrapper" id="home">
+    <div className="header-wrapper container" id="home">
       <Particles
         id="tsparticles"
         init={particlesInit}

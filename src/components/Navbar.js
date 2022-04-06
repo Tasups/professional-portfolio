@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="container">
       <div className="nav-logo">
         <h1>WEBDEV WHISNANT</h1>
       </div>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="#about" alt="About Me">
           About Me
         </a>
-        <a href="/" alt="Portfolio">
+        <a href="#portfolio" alt="Portfolio">
           Portfolio
         </a>
         <a href="#contacts" alt="Contacts">
