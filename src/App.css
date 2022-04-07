@@ -248,6 +248,7 @@ nav {
 /*----------PORTFOLIO----------*/
 
 .portfolio-wrapper {
+  display: flex;
   flex-direction: row;
   width: 100%;
   min-height: 45vh;
@@ -264,7 +265,6 @@ nav {
 }
 
 .portfolio-list {
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -290,6 +290,25 @@ nav {
   max-width: 20rem;
   border: 1px solid var(--primary-orange);
   border-radius: 1.666%;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+  }
+  .portfolio-wrapper h1 {
+    width: 100vw;
+    max-height: 3rem;
+    padding: 0rem;
+  }
+  .portfolio-list {
+    text-align: center;
+  }
+  .portfolio-project {
+    margin: 3rem 1rem;
+  }
 }
 
 
