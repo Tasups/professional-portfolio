@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Navbar = () => {
   return (
     <nav className="container">
@@ -20,6 +22,12 @@ const Navbar = () => {
           Contacts
         </a>
       </div>
+      <div className="nav-hamburger">
+        <button className="nav-hamburger-btn" type="button">
+          <FontAwesomeIcon className="nav-hamburger-icon" icon="fa-solid fa-bars" />
+        </button>
+      </div>
+      
     </nav>
   );
 }

@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -49,6 +49,22 @@ nav {
   margin-left: auto;
 }
 
+.nav-hamburger {
+  display: none;
+}
+
+.nav-hamburger-btn {
+  margin: 1.5rem 1rem 1.5rem auto;
+  background-color: var(--primary-dark);
+}
+
+.nav-hamburger-icon {
+  color: var(--primary-white);
+  padding: 1rem 2rem;
+  min-height: 2rem;
+  min-width: 2rem;
+}
+
 .nav-links a {
   color: var(--primary-white);
   font-weight: bold;
@@ -73,6 +89,24 @@ nav {
 .nav-links a:active {
   color: var(--primary-orange) !important;
 }
+
+@media only screen and (max-width: 600px) {
+  nav{
+    width: 100vw;
+  }
+  .nav-logo{
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-hamburger{
+    display: inline;
+    font-size: 2rem;
+  }
+}
+
 
 /*************HEADER*************/
 
@@ -322,6 +356,7 @@ nav {
 
 .contacts-main {
   margin: 2rem auto;
+  text-align: center;
 }
 
 .contacts-greeting {
@@ -351,4 +386,16 @@ nav {
 .contact-icon:hover {
   color: var(--primary-white);
   transition: ease-in-out 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  .contacts-greeting {
+    margin-bottom: 2rem;
+  }
+  .contacts-greeting h2 {
+    font-size: 1.3rem;
+  }
+  .contact-icon {
+    font-size: 2rem;
+  }
 }
