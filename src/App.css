@@ -213,6 +213,38 @@ nav {
   margin: 0.33rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .about{
+    min-height: 80vh;
+  }
+  .about-main {
+    flex-direction: column;
+    margin: 0;
+  }
+  .about-main-image {
+    margin: 1rem;
+    text-align: center;
+  }
+  .about-main-info {
+    justify-content: center;
+  }
+  .about-main-info h1 {
+    width: 100vw;
+    text-align: center;
+  }
+  .about-main-info ul {
+    text-align: center;
+    width: 23rem;
+    margin: 0;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+  }
+  .about-main-info li {
+    margin-bottom: 1rem;
+  }
+}
+
+
 /*----------PORTFOLIO----------*/
 
 .portfolio-wrapper {
