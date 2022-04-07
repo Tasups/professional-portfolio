@@ -7,7 +7,10 @@ import snakeGameImg from '../images/SnakeGame.jpg';
 const Portfolio = () => {
   return(
     <div className="portfolio-wrapper" id="portfolio">
-      <h1>PORTFOLIO</h1>
+      <div className="portfolio-title">
+        <h1>PORTFOLIO</h1>
+      </div>
+
       <div className="portfolio-list">
       
         <div className="portfolio-project">
@@ -47,6 +50,7 @@ const Portfolio = () => {
         </div>
         
       </div>
+      
     </div>
     )
 }
