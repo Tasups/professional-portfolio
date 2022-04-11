@@ -7,12 +7,8 @@ import snakeGameImg from '../images/SnakeGame.jpg';
 const Portfolio = () => {
   return(
     <div className="portfolio-wrapper" id="portfolio">
-      <div className="portfolio-title">
-        <h1>PORTFOLIO</h1>
-      </div>
-
       <div className="portfolio-list">
-      
+         <h1 className="portfolio-title">PORTFOLIO</h1>
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">BORED? APP</h2>
           <a 

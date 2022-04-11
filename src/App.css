@@ -118,7 +118,7 @@ nav {
   position: relative;
   padding-top: 10vh;
   min-height: 90vh;
-  width: 100%;
+  width: 100vw;
   background-color: var(--primary-grey);
   justify-content: center;
 }
@@ -206,7 +206,7 @@ nav {
 /*----------ABOUT----------*/
 
 .about {
-  width: 100%;
+  width: 100vw;
   min-height: 45vh;
   z-index: 2;
   padding-top: 10vh;
@@ -283,7 +283,7 @@ nav {
 /*----------PORTFOLIO----------*/
 
 .portfolio-wrapper {
-  width: 100%;
+  width: 100vw;
   min-height: 45vh;
   z-index: 2;
   padding-top: 10vh;
@@ -296,17 +296,19 @@ nav {
   text-align: center;
   padding: 1rem;
 }
-
+/*
 .portfolio-title {
   display: none;
   text-align: center;
   display: inline-block;
   height: 3rem;
 }
-
+*/
 .portfolio-list {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 100vw;
 }
 
 .portfolio-project {
@@ -364,6 +366,7 @@ nav {
   display: flex;
   background-color: var(--primary-dark);
   min-height: 45vh;
+  width: 100vw;
 }
 
 .contacts-main {
