@@ -20,8 +20,14 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+}
+
+/***************APP***************/
+
+.App {
+  overflow: hidden;
 }
 
 /***************NAVBAR***************/
@@ -33,6 +39,7 @@ nav {
   min-height: 10vh;
   width: 100vw;
   z-index: 3;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -102,11 +109,44 @@ nav {
   .nav-links {
     display: none;
   }
-  .nav-hamburger{
+  .nav-hamburger {
     display: inline;
     font-size: 2rem;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-hamburger {
+    display: inline;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-hamburger {
+    display: inline;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-hamburger {
+    display: none;
+  }
+  .nav-links {
+    display: inline;
+  }
+}
+
+
 
 
 /*************HEADER*************/
@@ -203,18 +243,23 @@ nav {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  #tsparticles {
+    display: ;
+  }
+}
+
+
 /*----------ABOUT----------*/
 
 .about {
   width: 100vw;
   min-height: 45vh;
   z-index: 2;
-  padding-top: 10vh;
 }
 
 .about-main {
   display: flex;
-  margin: 10rem;
   justify-content: space-around;
 }
 
@@ -276,6 +321,53 @@ nav {
   }
   .about-main-info li {
     margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+  }
+  .about-main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 4rem;
+  }
+  .about-main-image {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .about-main-info h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .about-main-info ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.25rem;
+    font-size: 1.45rem;
+  }
+  .about-main-info li {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .about-main-image {
+    margin-right: 15rem;
   }
 }
 
@@ -357,6 +449,24 @@ nav {
     display: flex;
     flex-direction: row;
   }
+  .portfolio-list {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-wrapper h1 {
+    font-size: 2.5rem;
+  }
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
 }
 
 
@@ -388,6 +498,7 @@ nav {
 .contacts-title {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
   color: var(--primary-orange);
   margin-bottom: 1rem;
 }
