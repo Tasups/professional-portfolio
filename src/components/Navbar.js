@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -24,7 +25,7 @@ const Navbar = () => {
       </div>
       <div className="nav-hamburger">
         <button className="nav-hamburger-btn" type="button">
-          <FontAwesomeIcon className="nav-hamburger-icon" icon="fa-solid fa-bars" />
+          <FontAwesomeIcon className="nav-hamburger-icon" icon={faBars} />
         </button>
       </div>
       
