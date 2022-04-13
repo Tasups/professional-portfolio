@@ -47,7 +47,7 @@ nav {
   font-size: 2rem;
   font-weight: 100;
   font-family: 'Anybody', cursive;
-  margin: auto 1rem;
+  margin: auto 2rem;
 }
 
 .nav-links {
@@ -334,7 +334,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    margin-bottom: 4rem;
+    margin: 4rem 0;
   }
   .about-main-image {
     margin: 1rem;
@@ -378,7 +378,7 @@ nav {
   width: 100%;
   min-height: 45vh;
   z-index: 2;
-  padding-top: 10vh;
+  padding-top: 4vh;
   background-color: var(--primary-orange);
 }
 
@@ -449,10 +449,19 @@ nav {
 @media only screen and (min-width: 768px) {
   .portfolio-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .portfolio-list {
     text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .portfolio-project img {
+  height: 20rem;
+  width: 27rem;
+  }
+  .portfolio-wrapper h1 {
+  font-size: 3rem;
   }
 }
 
@@ -524,6 +533,15 @@ nav {
     font-size: 1.3rem;
   }
   .contact-icon {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts-title {
+    font-size: 3rem;
+  }
+  .contacts-greeting h2 {
     font-size: 2rem;
   }
 }
