@@ -365,6 +365,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
+    padding-top: 2rem;
   }
   .about-main-image {
     margin-right: 15rem;
@@ -472,11 +473,16 @@ nav {
   }
   .portfolio-wrapper h1 {
     font-size: 2.5rem;
+    padding-top: 5rem;
   }
   .portfolio-list {
     display: flex;
     flex-direction: row;
     margin-bottom: 5rem;
+  }
+  .portfolio-project img {
+    height: 15rem;
+    width: 20rem;
   }
 }
 
