@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavLinks = () => {
   return(
-    <ul>
+    <ul className="navlinks-list">
       <li>
         <a href="#home" alt="Home">
           Home
