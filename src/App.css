@@ -296,10 +296,11 @@ nav {
 @media only screen and (max-width: 600px) {
   .about{
     min-height: 80vh;
+    margin: 5rem 0 0 0;
+    padding: 0rem;
   }
   .about-main {
     flex-direction: column;
-    margin: 0;
   }
   .about-main-image {
     margin: 1rem;
@@ -550,4 +551,27 @@ nav {
   .contacts-greeting h2 {
     font-size: 2rem;
   }
+}
+
+/*----------SIDEBAR DRAWER----------*/
+
+.side-drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 70%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
 }
