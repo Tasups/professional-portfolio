@@ -451,11 +451,18 @@ nav {
   }
 }
 
+@media only screen and (min-width: 601px) {
+  .portfolio-list {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .portfolio-wrapper {
     display: flex;
     flex-direction: column;
-    scroll-margin-top: 20px;
+    scroll-margin-top: 4rem;
   }
   .portfolio-list {
     text-align: center;
