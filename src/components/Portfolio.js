@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">BORED? APP</h2>
           <a
-            href="https://eager-kalam-6403d4.netlify.app/"
+            href="https://for-a-bored-son.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">DAILY TASK APP</h2>
           <a
-            href="https://ubiquitous-torrone-aa0502.netlify.app/"
+            href="https://app.netlify.com/sites/yesitisa-todo-app"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,7 +36,7 @@ const Portfolio = () => {
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">SNAKE GAME</h2>
           <a
-            href="https://precious-cactus-d40834.netlify.app/"
+            href="https://for-a-bored-son.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
