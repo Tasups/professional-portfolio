@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">DAILY TASK APP</h2>
           <a
-            href="https://app.netlify.com/sites/yesitisa-todo-app"
+            href="https://yesitisa-todo-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,7 +36,7 @@ const Portfolio = () => {
         <div className="portfolio-project">
           <h2 className="portfolio-project-title">SNAKE GAME</h2>
           <a
-            href="https://for-a-bored-son.netlify.app/"
+            href="https://snakegameforbubba.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
