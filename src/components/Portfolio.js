@@ -1,6 +1,6 @@
 import React from 'react';
 
-import boredAppImg from '../images/BoredApp.jpg';
+import bug_Bank from '../images/Bug_Bank.jpg';
 import dailyTaskAppImg from '../images/DailyTaskApp.jpg';
 import snakeGameImg from '../images/SnakeGame.jpg';
 
@@ -10,14 +10,14 @@ const Portfolio = () => {
       <h1 className="portfolio-title">PORTFOLIO</h1>
       <div className="portfolio-list">
         <div className="portfolio-project">
-          <h2 className="portfolio-project-title">BORED? APP</h2>
+          <h2 className="portfolio-project-title">BUG BANK</h2>
           <a
-            href="https://for-a-bored-son.netlify.app/"
+            href="https://bug-bank.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={boredAppImg} alt="bored app" />
-            {/*Using an API, with controlled requests, filtered by preset inputs*/}
+            <img src={bug_Bank} alt="bug bank" />
+            {/*A bug tracker system*/}
           </a>
         </div>
 
