@@ -2,7 +2,7 @@ import React from 'react';
 
 import bug_Bank from '../images/Bug_Bank.jpg';
 import dailyTaskAppImg from '../images/DailyTaskApp.jpg';
-import snakeGameImg from '../images/SnakeGame.jpg';
+import blog_image from '../images/blog_image.jpg';
 
 const Portfolio = () => {
   return (
@@ -34,14 +34,14 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio-project">
-          <h2 className="portfolio-project-title">SNAKE GAME</h2>
+          <h2 className="portfolio-project-title">BLOG</h2>
           <a
-            href="https://snakegameforbubba.netlify.app/"
+            href="https://webdev-whisnant-blog.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={snakeGameImg} alt="snake game app" />
-            {/*A simple game mostly using method arrays and useRef hook*/}
+            <img src={blog_image} alt="snake game app" />
+            {/*A fullstack blog using MERN*/}
           </a>
         </div>
       </div>
