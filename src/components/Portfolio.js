@@ -1,7 +1,7 @@
 import React from 'react';
 
 import bug_Bank from '../images/Bug_Bank.jpg';
-import dailyTaskAppImg from '../images/DailyTaskApp.jpg';
+import algoViz from '../images/algoViz.jpg';
 import blog_image from '../images/blog_image.jpg';
 
 const Portfolio = () => {
@@ -22,14 +22,14 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio-project">
-          <h2 className="portfolio-project-title">DAILY TASK APP</h2>
+          <h2 className="portfolio-project-title">ALVIZGO</h2>
           <a
-            href="https://yesitisa-todo-app.netlify.app/"
+            href="https://algovizy.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={dailyTaskAppImg} alt="daily task app" />
-            {/*Internal data sets React's state in this simple CRUD application*/}
+            <img src={algoViz} alt="an algorithm visualizing tool" />
+            {/*A algorithm visualizing tool setup with merge-sort first*/}
           </a>
         </div>
 
